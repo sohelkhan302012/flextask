@@ -76,12 +76,7 @@ a:hover {
 .header {
   padding: 10px 0;
 }
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
 .menubar {
   display: flex;
 }
@@ -108,6 +103,9 @@ a:hover {
 }
 .mobile-menu {
   color: var(--text-color);
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 /* section-1 */
 .sec-1 {
@@ -537,6 +535,12 @@ input:checked ~ .tab-content {
   }
   .none {
     display: none;
+  }
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
 @media (min-width: 1200px) {
